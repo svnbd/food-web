@@ -302,9 +302,44 @@ header .icons #menu-bars{
 .about .row .content{
   flex: 1 1 45rem;
 }
+.about .row .content h3{
+  color: var(--black);
+  font-size: 1.5rem;
+  padding: .5rem 0;
+}
+
+.about .row .content p{
+  color: var(--light-color);
+  font-size: 1.5rem;
+  padding: .5rem 0;
+  line-height: 2;
+}
+.about .row .content .icons-container{
+  display: flex;
+  gap:1rem;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  margin-top: .5rem;
+}
+
+.about .row .content .icons-container .icons{
+  background: var(--bg-color);
+  border-radius: .5rem;
+  border: .1rem solid rgba(0,0,0,.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:1rem;
+  flex: 1 1 17rem;
+}
 
 
-.lastest .home-slider .slide{
+.about .row .content .icons-container .icons i{
+  font-size: 2.5rem;
+
+}
+
+.newfood .home-slider .slide{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -313,24 +348,24 @@ header .icons #menu-bars{
 
 }
 
-.lastest .home-slider .slide .content{
+.newfood .home-slider .slide .content{
     flex:1 1 45rem;
 }
 
-.lastest .home-slider .slide .image{
+.newfood .home-slider .slide .image{
     flex:1 1 45rem;
 }
 
-.lastest .home-slider .slide .image img{
+.newfood .home-slider .slide .image img{
     width: 100%;
 }
 
-.lastest .home-slider .slide .content h3{
+.newfood .home-slider .slide .content h3{
     color:var(--black);
     font-size: 7rem;
 }
 
-.lastest .home-slider .slide .content p{
+.newfood .home-slider .slide .content p{
     color:var(--light-color);
     font-size: 2.2rem;
     padding: .5rem 0;
